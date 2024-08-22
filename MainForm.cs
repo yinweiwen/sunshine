@@ -15,7 +15,6 @@ namespace Sunshine
         {
             dgv.CellContentClick += dgv_CellContentClick;
             LoadData();
-            //Operator.RunSunshine("711799048", "admin369");
         }
 
         private void LoadData(string searchTerm = "", int page = 1)
